@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large ONNX voice models & audio databases (Downloaded automatically on first startup)
+kokoro-v1.0.onnx
+voices-v1.0.bin
+
+# Temporary wave buffers
+*.wav
+*.mp3
+
+# Local Assistant State Database & History
+conversation_history.json
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Miscellaneous
+tempCodeRunnerFile.py

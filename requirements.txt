@@ -1,0 +1,11 @@
+SpeechRecognition
+PyAudio
+pyttsx3
+groq
+pydub
+google-cloud-texttospeech
+ollama
+vosk
+kokoro-onnx
+soundfile
+
