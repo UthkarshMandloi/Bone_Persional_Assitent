@@ -127,7 +127,7 @@ Bone works locally on CPU or remotely on a free Cloud GPU.
   2. Pull a recommended model: `ollama pull llama3.2`.
   3. Inside `bone_Brain.py`, configure `OLLAMA_HOST = None` and `OLLAMA_MODEL = "llama3.2"`.
 * **Remote Colab GPU Mode** (Blazing Fast):
-  1. Open the Google Colab Notebook.
+  1. Open the Google Colab Notebook.(or upload model.ipynb)
   2. Add ngrok authorization and configure it to rewrite the host header to bypass safety warnings:
      ```python
      ngrok.connect(11434, "http", host_header="rewrite")
